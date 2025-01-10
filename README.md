@@ -34,5 +34,7 @@
 
 **Note:-**
 - In the context of the text-to-image generator provided, setting device as "cuda" means utilizing an NVIDIA GPU to accelerate the model's computations.
-- CUDA is a parallel computing platform and API model created by NVIDIA. It allows developers to use the GPU for general-purpose processing, which is typically much faster for tasks like deep learning model 
-  inference and training.
+- CUDA (Compute Unified Device Architecture): is a parallel computing platform and API model created by NVIDIA. It allows developers to use the GPU for general-purpose processing, which is typically much faster 
+  for tasks like deep learning model inference and training.
+- In text-to-image generation, models like StableDiffusionPipeline from diffusers use substantial computational resources. Setting the device to "cuda" ensures that the heavy computational tasks (e.g., 
+  forward passes, inference steps) are offloaded to the GPU instead of being processed by the CPU, which is slower for such tasks.
