@@ -33,6 +33,6 @@
 - **Call generate_image("white tiger with goggles", image_gen_model) to generate an image based on the prompt.**
 
 **Note:-**
-- In the context of the text-to-image generator you provided, setting device as "cuda" means utilizing an NVIDIA GPU to accelerate the model's computations.
+- In the context of the text-to-image generator provided, setting device as "cuda" means utilizing an NVIDIA GPU to accelerate the model's computations.
 - CUDA is a parallel computing platform and API model created by NVIDIA. It allows developers to use the GPU for general-purpose processing, which is typically much faster for tasks like deep learning model 
   inference and training.
