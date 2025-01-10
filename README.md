@@ -30,4 +30,4 @@
      - Generates an image using the specified model configuration.
      - Resizes the generated image to the specified dimensions.
     
-- Call generate_image("white tiger with goggles", image_gen_model) to generate an image based on the prompt.
+- **Call generate_image("white tiger with goggles", image_gen_model) to generate an image based on the prompt.**
