@@ -2,7 +2,7 @@
 - **Install Required Libraries:**
   - Use !pip install --upgrade diffusers transformers -q to install and upgrade the diffusers and transformers libraries.
     
--**Import Necessary Modules:**
+- **Import Necessary Modules:**
   - Import essential Python libraries such as Path, tqdm, torch, pandas, numpy, and cv2.
   - Import StableDiffusionPipeline from diffusers and functions from transformers
     
