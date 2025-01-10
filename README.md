@@ -7,15 +7,15 @@
   - Import StableDiffusionPipeline from diffusers and functions from transformers
     
 - **Define Configuration Class (CFG):**
- - Set up the configuration for image generation, including:
-   - device as "cuda".
-   - seed for reproducibility.
-   - image_gen_steps for the number of inference steps.
-   - image_gen_model_id for the model identifier.
-   - image_gen_size for the output image dimensions.
-   - image_gen_guidance_scale for guidance scale in image generation.
-   - prompt_gen_model_id for the prompt generation model.
-   - prompt_dataset_size and prompt_max_length for prompt configurations.
+    - Set up the configuration for image generation, including:
+      - device as "cuda".
+      - seed for reproducibility.
+      - image_gen_steps for the number of inference steps.
+      - image_gen_model_id for the model identifier.
+      - image_gen_size for the output image dimensions.
+      - image_gen_guidance_scale for guidance scale in image generation.
+      - prompt_gen_model_id for the prompt generation model.
+      - prompt_dataset_size and prompt_max_length for prompt configurations.
 
 - **Load the Stable Diffusion Model:**
   - Load the pre-trained Stable Diffusion model using StableDiffusionPipeline.from_pretrained.
